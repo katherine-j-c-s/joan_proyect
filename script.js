@@ -14,7 +14,7 @@ if (window.innerWidth < 800) {
     
     burger.classList.toggle("hidden");
     
-    if (window.location.href == "file:///C:/Users/AeroCool/Documents/katherine/joan/index.html") {
+    if (window.location.href == "https://katherine-j-c-s.github.io/joan_proyect/index.html") {
         console.log("esto es home")
         soundtracks.width = 600;
     }
