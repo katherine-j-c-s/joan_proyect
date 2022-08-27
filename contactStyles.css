@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font-family: 'Merriweather', serif;
+}
+.contact {
+    color: #db3c3c;
+}
+.hidden {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+article {
+    width: 100%;
+    overflow: hidden;
+}
+.logoContainer {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 118px;
+    height: 118px;
+}
+.options {
+    width: 30%;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.socialmedia {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.presentation {
+    background-image: url(https://slip2nap.com/wp-content/uploads/2022/08/2560x1024_wallpaper.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    height: 23rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textPresentation {
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 75px;
+}
+.contactSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5% 0%;
+}
+.findUs {
+    width: 30%;
+}
+.getInTouch {
+    width: 30%;
+}
+.tittle h1 {
+    color: #020101;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.info a {
+    color: rgba(2, 1, 1, 0.842);
+    font-weight: 500;
+}
+.info h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 12% 0% 2%;
+    font-family: auto;
+    font-size: 18px;
+}
+.info p {
+    font-family: auto;
+    font-size: 18px;
+}
+input{
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 60px;
+    border: none;
+    margin-top: 6px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+textarea{
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+button{
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: white;
+    text-transform: uppercase;
+    background-color: #db3c3c;
+    border-radius: 7px;
+    width: 165px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+button:hover {
+    background-color: rgb(199, 33, 33)
+}
+button p{
+    color: #020101b0;
+    font-size: 15px;
+    text-transform: none;
+}
+.yourInfo input:focus{
+    outline: 0;
+    border-bottom: 1px solid #db3c3c;
+}
+.message textarea:focus{
+    outline: 0;
+    border-bottom: 1px solid #db3c3c;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% 0%; 
+}
+.optionsfooter {
+    width: 30%;
+}
+.optionsfooter a {
+    color: black;
+}
+.joan {
+    width: 30%;
+    text-align: center;
+}
+#logofooter {
+    width: 150px;
+    height: 150px;
+}
+@media only screen and (max-width: 800px ){
+    a {
+        color: #020101;
+    }
+    .menubtn {
+        background: #EF4D48;
+        border-radius: 40px;
+        padding: 24px;
+        right: 30px;
+        top: 30px;
+        position: absolute;
+    }
+    .burger {
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        left: 16px;
+        top: 12px;
+    }
+    .cross {
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        left: 19px;
+        top: 12px;
+    }
+    .options {
+        overflow: hidden;
+        transition: all ease-out 0.5s;
+        flex-direction: column;
+        column-gap: 1rem;
+        grid-template-columns: auto 1fr auto;
+        transform: translateY(-150%);
+        width: 100%;
+        position: absolute;
+        background: white;
+        padding: 4rem 4rem 6rem 4rem;
+        top: 0;
+    }
+    .options ul {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .options li {
+        height: 4rem;
+        color: #020101;
+        font-weight: bold;
+    }
+    .socialmedia {
+        position: absolute;
+        transition: all ease-out 0.5s;
+        column-gap: 1rem;
+        grid-template-columns: auto 1fr auto;
+        transform: translateY(-40rem);
+        width: 100%;
+        display: flex;
+        bottom: -19rem;
+        position: relative;
+        left: -4rem;
+        justify-content: space-evenly;
+    }
+    .show-options {
+        transform: translateY(0%);
+    }
+    .logoContainer {
+        width: 60%;
+    }
+    .textPresentation {
+        font-size: 50px;
+    }
+    .presentation {
+        background-size: 300%;
+        position: relative;
+        height: 18rem;
+        background-repeat: no-repeat;
+        top: 0rem;
+    }
+    .contactSection {
+        align-items: center;
+        margin: 18% 0%;
+        flex-direction: column-reverse;
+    }
+    .getInTouch{
+        width: 90%;
+        text-align: center;
+    }
+    .tittle h1 {
+        font-size: 24px;
+    }
+    .btn {
+        display: flex;
+    }
+    .findUs {
+        width: 90%;
+        text-align: center;
+        margin: 18% 0% 0%;
+    }
+    footer {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #logofooter {
+        width: 250px;
+        height: 250px;
+    }
+    .optionsfooter ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .optionsfooter li {
+        margin: 12%;
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .joan {
+        width: 100%;
+    }
+}
