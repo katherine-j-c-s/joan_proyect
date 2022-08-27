@@ -60,13 +60,13 @@ ul {
     width: 100%;
     position: relative;
     z-index: 1;
-    top: -8rem;
+    top: -10rem;
 }
 .portfolio {
     position: relative;
     display: flex;
     justify-content: center;
-    top: -20rem;
+    top: -26rem;
     z-index: 3;
     font-size: 12px;
     letter-spacing: 1px;
@@ -96,7 +96,7 @@ ul {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    top: -18rem;
+    top: -24rem;
     background: white;
     position: relative;
     z-index: 1;
@@ -144,7 +144,7 @@ ul {
     display: flex;
     justify-content: center;
     width: 90%;
-    margin: -8rem 0rem 2rem 8rem;
+    margin: -18rem 0rem 2rem 8rem;
 }
 .questios {
     background-image: url(https://slip2nap.com/wp-content/uploads/2022/08/Banner.jpg);
@@ -209,13 +209,13 @@ footer {
         width: 50%;
     }
     .servises {
-        top: -10rem;
+        top: -14rem;
     }
     .videoPresentacion {
-        top: -4rem;
+        top: -6rem;
     }
     .portfolio {
-        top: -12rem;
+        top: -16rem;
     }
 }
 /* @media only screen and (max-width: 800px ) {
